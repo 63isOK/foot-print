@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	funcs = append(funcs, printWithoutUnwrap, checkErrorType, isAsEOFError)
+	funcs = append(funcs, printWithoutUnwrap, checkErrorType, isAsEOFError, testGoString)
 }
 
 func printWithoutUnwrap() {
@@ -28,6 +28,12 @@ func isAsEOFError() {
 	if errors.As(err, &eof) {
 		fmt.Printf("是eofError")
 	}
+}
+
+func testGoString() {
+	err := createErrorList()
+	merr := err.(*multierror.Error)
+	fmt.Println(merr.GoString())
 }
 
 type eofError struct{}
