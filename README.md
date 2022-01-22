@@ -11,3 +11,7 @@
 ## 2022/01
 
 - [go多错误库](/multi-error/README.md)
+
+## 实践
+
+- [在test中进行接口实现检查](/practice/move_interface_implement_to_test_file.md)
