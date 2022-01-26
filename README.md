@@ -15,3 +15,4 @@
 ## 实践
 
 - [在test中进行接口实现检查](/practice/move_interface_implement_to_test_file.md)
+- [可读性高的递归](/practice/recursive-with-readable.md)
