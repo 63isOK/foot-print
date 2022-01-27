@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/agiledragon/gomonkey/v2 v2.4.0
+	github.com/golang/mock v1.6.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/smartystreets/goconvey v1.7.2
 )
@@ -14,3 +15,5 @@ require (
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/smartystreets/assertions v1.2.0 // indirect
 )
+
+replace github.com/63isOK/foot-print => ./
