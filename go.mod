@@ -10,6 +10,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/golang/mock v1.6.0
 	github.com/hashicorp/go-multierror v1.1.1
+	github.com/jinzhu/copier v0.3.5
 	github.com/juju/ratelimit v1.0.1
 	github.com/smartystreets/goconvey v1.7.2
 	gopkg.in/resty.v1 v1.12.0
